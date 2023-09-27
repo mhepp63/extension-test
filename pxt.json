@@ -1,24 +1,22 @@
 {
-    "name": "extension test",
-    "description": "",
-    "dependencies": {
-        "device": "*"
-    },
+    "name": "picopad",
+    "description": "Picopad board",
     "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md",
-        "assets.json"
+        "config.json"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "targetVersions": {
-        "target": "1.12.41",
-        "targetId": "arcade"
+    "card": {
+        "name": "Picopad Board",
+        "description": "Build firmware for your Picopad",
+        "learnMoreUrl": "https://www.picopad.eu/",
+        "buyUrl": "https://pajenicko.cz/picopad",
+        "cardType": "hw",
+        "imageUrl": "https://picopad.eu/cs/img/logos/logo.png"
     },
-    "supportedTargets": [
-        "arcade"
-    ],
-    "preferredEditor": "blocksprj"
+    "dependencies": {
+        "core": "file:../core---picopad",
+        "screen": "file:../screen---picopad",
+        "mixer": "file:../mixer---picopad",
+        "game": "file:../game"
+    },
+    "public": true
 }
