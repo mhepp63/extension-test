@@ -1,0 +1,22 @@
+{
+    "name": "picopad",
+    "description": "Picopad board",
+    "files": [
+        "config.json"
+    ],
+    "card": {
+        "name": "Picopad Board",
+        "description": "Build firmware for your Picopad",
+        "learnMoreUrl": "https://www.picopad.eu/",
+        "buyUrl": "https://pajenicko.cz/picopad",
+        "cardType": "hw",
+        "imageUrl": "https://picopad.eu/cs/img/logos/logo.png"
+    },
+    "dependencies": {
+        "core": "file:../core---picopad",
+        "screen": "file:../screen---picopad",
+        "mixer": "file:../mixer---picopad",
+        "game": "file:../game"
+    },
+    "public": true
+}
