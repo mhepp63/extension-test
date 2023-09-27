@@ -2,7 +2,7 @@
     "name": "picopad",
     "description": "Picopad board",
     "files": [
-        "config.json"
+        "config.ts"
     ],
     "card": {
         "name": "Picopad Board",
@@ -11,12 +11,6 @@
         "buyUrl": "https://pajenicko.cz/picopad",
         "cardType": "hw",
         "imageUrl": "https://picopad.eu/cs/img/logos/logo.png"
-    },
-    "dependencies": {
-        "core": "file:../core---picopad",
-        "screen": "file:../screen---picopad",
-        "mixer": "file:../mixer---picopad",
-        "game": "file:../game"
     },
     "public": true
 }
